@@ -65,3 +65,7 @@
     position: relative;
     bottom: 7px;
 }
+.addProduct{
+    color: white;
+    font-weight: bold;
+}

@@ -9,7 +9,6 @@ const App = () => {
     <>
       <Navbar />
       <ProductsList/>
-      
     </>
     </React.Fragment>
   )

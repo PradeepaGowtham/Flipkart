@@ -19,7 +19,7 @@ const Navbar = () => {
             <FaSearch className="search"/>
          </div>
          <div className="navbarThird">
-             <span>My Account</span>
+             <span className="addProduct">Add Product</span>
          </div>
          </div>
 </>
