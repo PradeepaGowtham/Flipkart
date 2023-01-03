@@ -1,0 +1,16 @@
+.btn{
+    height: 80px;
+    transform: translateY(-10px);
+    box-shadow: 0 0 2px ;
+    width: 750px;
+}
+.btn>button{
+    padding: 10px 50px;
+    transform: translateX(250px);
+    background-color: rgb(247, 119, 81);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    
+}
