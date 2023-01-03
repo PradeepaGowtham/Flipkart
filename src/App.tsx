@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './pages/navbar';
+import Header from './pages/header';
 import ProductsList from './components/mainpage/productslist';
 
 
@@ -9,6 +10,7 @@ const App = () => {
     <>
       <Navbar />
       <ProductsList/>
+      <Header />
     </>
     </React.Fragment>
   )
