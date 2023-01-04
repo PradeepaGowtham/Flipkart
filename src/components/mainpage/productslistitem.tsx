@@ -12,6 +12,7 @@ const ProductsListItem = ({name,description,seller}:ProductsListProps)  =>{
                 <p>{description}</p>
                 <h6>Seller:{seller.name}</h6>
              </div>
+             <div className="priceDetails">PRICE DETAILS</div>
              <div className="price">price</div>
             
         </div>    
