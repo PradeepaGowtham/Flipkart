@@ -4,22 +4,21 @@ body{
     height: 100vh;
  }
  .container{
-    margin:5px 70px;
-    display: flex;
-    flex-wrap: wrap;
+     display: flex;
+     margin: 1px 70px;
+    
 }   
 .container>div{
     background-color: white;
-    margin: 5px;
-    padding: 15px;
+    
     font-size: 15px;
     color: rgb(12, 11, 11);
     border: 1px solid rgb(250, 246, 246);
     box-shadow: 0 0 1px #e9e5e5;
     border-radius: 3px;
 }
-.address,.productDetails{
-    width: 750px;
+.productDetails{
+    width: 730px;
 }
 .priceDetails{
     width:340px;
@@ -28,8 +27,8 @@ body{
 }
 .price{
     width: 340px;
-    height: 170px;
-    transform: translate(760px,-209px);
+    height: 50px;
+    
 }
 .productDetails{
      height: 250px; 
@@ -38,7 +37,7 @@ body{
     margin: 10px;
     padding: 20px;
     }
-.section{
+.section1{
     display: flex;
     flex-direction: column;
     column-gap: 5px;
@@ -54,4 +53,9 @@ body{
 .name{
     font-weight: bold;
 
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    
 }

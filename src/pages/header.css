@@ -1,12 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+ }
 .container{
-    margin:20px 70px;
+    margin:30px 70px;
     display: flex;
     flex-wrap: wrap;
 }  
 .container>div{
     background-color: white;
-    margin: 5px;
-    padding: 15px;
+    margin: 3px;
+    padding: 10px;
     font-size: 15px;
     color: rgb(12, 11, 11);
     border: 1px solid rgb(250, 246, 246);
@@ -18,7 +24,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 60px;
-    width: 750px;
+    width: 730px;
 }
 .flipkart{
     color: #2874f0;
@@ -33,7 +39,7 @@
 
 .address{
     height: 70px;
-    
+    width: 730px;
 }
 .first{
     font-size: 15px;
@@ -53,7 +59,7 @@
     font-weight: bold;
 }
 .change{
-    transform: translate(350px,-20px);
+    transform: translate(300px,-20px);
      padding: 5px 10px;
      color: blue;
      background-color: white;

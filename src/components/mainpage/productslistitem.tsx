@@ -9,16 +9,17 @@ const ProductsListItem = ({name,description,seller,imageUrl}:ProductsListProps) 
         <div className="container">
              <div className="productDetails">
                <div><img src={imageUrl} alt="Hair Accessories" className="image"/></div>
-               <div className="section">
+               <div className="section1">
                  <h3 className="name">{name}</h3>
                 
                 <p className="description">{description}</p>
                 <div className="seller">Seller:{seller.name}</div>
                 </div>
              </div>
-             <div className="priceDetails">PRICE DETAILS</div>
-             <div className="price">price</div>
-            
+             <div className="section2">
+               <h5 className="priceDetails">PRICE DETAILS</h5>
+               <h6 className="price">price</h6>
+             </div>
         </div>    
    
     
