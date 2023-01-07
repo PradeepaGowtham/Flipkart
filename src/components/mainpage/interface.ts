@@ -19,6 +19,7 @@ export enum DiscountType {
  export interface ProductsListProps {
     id: string;
     name: string;
+    imageUrl:string;
     description: string;
     seller: Seller;
     amount: number;
