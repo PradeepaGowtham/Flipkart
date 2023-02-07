@@ -2,7 +2,7 @@ import React from "react";
 import './productlistitem.css';
 import { ProductsListProps,DiscountType,Seller,Discount} from "./interface";
 
-const ProductsListItem = ({name,description,seller,imageUrl}:ProductsListProps)  =>{
+const ProductsListItem = ({name,description,seller,imageUrl,amount}:ProductsListProps)  =>{
     return(
      
 
@@ -18,7 +18,7 @@ const ProductsListItem = ({name,description,seller,imageUrl}:ProductsListProps) 
              </div>
              <div className="section2">
                <h5 className="priceDetails">PRICE DETAILS</h5>
-               <h6 className="price">price</h6>
+               <h6 className="price">Price:{amount}</h6>
              </div>
         </div>    
    
