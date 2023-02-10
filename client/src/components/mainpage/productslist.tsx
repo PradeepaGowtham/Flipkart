@@ -1,10 +1,11 @@
 import React from "react";
 import ProductsListItem from "./productslistitem";
 import { DiscountType, ProductsListProps} from "./interface";
+
 import './productlist.css';
 
 const ProductsList = () =>{ 
-
+    
   const productsListInfo:ProductsListProps[] = [
     {
         id:"1",
@@ -31,7 +32,7 @@ const ProductsList = () =>{
           name:"MythongloryRetail",
           ifFlipkartAssured: true,
         },
-        amount: 350,
+        amount: 550,
         discount: {
          type : DiscountType.PERCENTAGE,            
          
@@ -48,7 +49,7 @@ const ProductsList = () =>{
           name:"MythongloryRetail",
           ifFlipkartAssured: true,
         },
-        amount: 350,
+        amount: 400,
         discount: {
          type : DiscountType.PERCENTAGE,            
          
