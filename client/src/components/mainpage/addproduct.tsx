@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import { useParams,useNavigate } from "react-router";
+import './addproduct.css';
 
 
 export default function AddProduct() {

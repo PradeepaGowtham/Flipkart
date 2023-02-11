@@ -65,8 +65,3 @@
     position: relative;
     bottom: 7px;
 }
-.addProduct:hover{
-    color: white;
-    font-weight: bold;
-    color: #ffe500;
-}

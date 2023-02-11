@@ -2,11 +2,15 @@ import React from "react";
 import './productlistitem.css';
 import { ProductsListProps,DiscountType,Seller,Discount} from "./interface";
 
+
+
+
 const ProductsListItem = ({name,description,seller,imageUrl,amount}:ProductsListProps)  =>{
     return(
-     
-
+     <div>
+        
         <div className="container">
+       
              <div className="productDetails">
                <div><img src={imageUrl} alt="Hair Accessories" className="image"/></div>
                <div className="section1">
@@ -22,7 +26,7 @@ const ProductsListItem = ({name,description,seller,imageUrl,amount}:ProductsList
              </div>
         </div>    
    
-    
+   </div>
     )
    
 }

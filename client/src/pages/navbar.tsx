@@ -1,11 +1,13 @@
 import React from "react";
 import {FaSearch} from 'react-icons/fa';
+import {NavLink} from "react-router-dom";
 import './navbar.css';
-
 const Navbar = () => {
+  
     return(
+    
         <>
-        <div className="navbar">
+       <div className="navbar">
         <div className="navbarFirst">
           <img className="flipkartimg" src="./images/flipkartimg.png" alt="flipkart" />
           <p>
@@ -19,10 +21,11 @@ const Navbar = () => {
             <FaSearch className="search"/>
          </div>
          <div className="navbarThird">
-             <span className="addProduct">Add Product</span>
-         </div>
+            <NavLink className="nav-link" to="/addproduct">Add Product</NavLink>
+                
+        </div>
          </div>
 </>
 )
 }
-export default Navbar;
+export default Navbar; 
